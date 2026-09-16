@@ -125,7 +125,15 @@ header p {
 
 .site-nav__links a:hover,
 .site-nav__links a:focus-visible {
-	color: #00c7fd;
+	color: #ffffff;
+}
+
+.site-nav select:focus-visible,
+.newsletter-form input:focus-visible {
+	border-color: #00c7fd;
+	box-shadow: 0 0 0 3px #ffffff;
+	outline: 3px solid #032a52;
+	outline-offset: 2px;
 }
 
 footer {
@@ -165,7 +173,7 @@ footer h2 {
 .footer-content > div > p:last-child {
 	max-width: 520px;
 	margin: 0;
-	color: #c8d5e0;
+	color: #e1edf3;
 	line-height: 1.6;
 }
 
@@ -184,7 +192,7 @@ footer h2 {
 	min-width: 0;
 	flex: 1;
 	padding: 13px 14px;
-	border: 1px solid #7890a4;
+	border: 1px solid #4f687b;
 	border-radius: 3px;
 	font: inherit;
 }
@@ -208,7 +216,7 @@ footer h2 {
 .newsletter-form small {
 	display: block;
 	margin-top: 12px;
-	color: #a9bac8;
+	color: #d9e6ed;
 	font-size: 12px;
 	line-height: 1.5;
 }
@@ -233,7 +241,7 @@ footer h2 {
 
 .footer-note {
 	margin: 0;
-	color: #a9bac8;
+	color: #d9e6ed;
 	font-size: 12px;
 }
 
@@ -244,7 +252,7 @@ footer h2 {
 }
 
 .footer-links a {
-	color: #a9bac8;
+	color: #d9e6ed;
 	text-decoration: none;
 }
 
